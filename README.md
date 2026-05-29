@@ -63,11 +63,6 @@ The latest dashboard redesign now follows a guided narrative:
 pip install -r requirements.txt
 ```
 
-For ETL/notebook work:
-```bash
-pip install -r requirements-dev.txt
-```
-
 ### 2. Run the Dashboard
 From the `numpum/` directory:
 ```bash
@@ -232,6 +227,7 @@ To update the dashboard with new data:
 
 1. Re-run the ETL pipeline: `jupyter notebook etl.ipynb`
 2. Rebuild digital desert modeling outputs: `python build_digital_desert_model.py`
+   - This regenerates separate `flood_exposure_score` and `topographic_susceptibility_score` fields, while `risk_score` remains the composite ranking score.
 3. Ensure new files are in `./processed_data/`
 4. Restart Streamlit: `streamlit run dashboard.py`
 

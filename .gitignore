@@ -1,2 +1,8 @@
 .venv/
 archive/
+
+# Ignore all .pyc files
+*.pyc
+
+# cache files
+__pycache__/**/*

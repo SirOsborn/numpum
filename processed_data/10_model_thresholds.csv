@@ -1,6 +1,6 @@
 metric,value,unit
-high_risk_cutoff,83.60425085873821,flood_proxy_score_0_100
+high_risk_cutoff,45.86566360169643,composite_flood_score_0_100
 low_connectivity_km_cutoff,37.069539923806914,km_to_nearest_tower
 high_population_cutoff,634.8,estimated_people_per_community
 osm_towers_count,37.0,points
-osm_water_points_count,1787.0,points
+osm_water_points_count,1789.0,points
